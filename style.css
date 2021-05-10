@@ -1,4 +1,56 @@
-<style>
+
+.container{
+	Display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-rows:100px 50px auto 50px;
+	grid-template-areas:
+	"header header header header"
+	"nav nav nav nav"
+	"main main main aside"
+	"footer footer footer footer"
+}
+
+
+
+main{
+	grid-area:main;
+	
+	
+    
+} 
+
+header{
+	grid-area:header;
+    
+}
+
+footer{
+	
+text-align: center;
+	
+}
+.img {
+	float:right;
+	border: 2px solid black;
+	
+}
+
+.Pimg {
+	 
+
+}
+
+
+	
+p {
+	font-size: 40px;
+}
+
+
+footer{
+	grid-area:footer;
+
+}
 
 table {
 	border: 2px solid red; 
@@ -11,4 +63,24 @@ td {
 	font-size: 100%;
 	
 	
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.nav a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: yellow;
+  color: red;
 }
