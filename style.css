@@ -12,6 +12,7 @@
 
 
 
+
 main{
 	grid-area:main;
 	
@@ -38,6 +39,33 @@ text-align: center;
 .Pimg {
 	 
 
+}
+
+header1 {
+	
+	
+	
+}
+
+.Timg {
+	float:center;
+	
+	
+}
+
+.Kimg {
+	float:right;
+	
+}
+
+.Bimg {
+	float:center;
+	
+}
+
+.Ximg {
+	float:right;
+	
 }
 
 
