@@ -26,29 +26,26 @@ header{
 }
 
 footer{
+	grid-area:footer;
+	text-align: center;
+
+}
+
+footer{
 	
 text-align: center;
 	
 }
+
+
 .img {
 	float:right;
 	border: 2px solid black;
 	
 }
 
-.Pimg {
-	 
-
-}
-
-header1 {
-	
-	
-	
-}
-
 .Timg {
-	float:center;
+	float:right;
 	
 	
 }
@@ -59,7 +56,7 @@ header1 {
 }
 
 .Bimg {
-	float:center;
+	float:right;
 	
 }
 
@@ -69,7 +66,40 @@ header1 {
 }
 
 
+
+header1 {
 	
+	
+	
+}
+
+body {
+	margin: 0;
+	background: rgb(15,15,15);
+	color: white;
+	text-align: center
+	
+}
+
+h1 {
+	
+	font-family: lato;
+	margin-top: 0;
+
+}
+
+.test {
+                    
+	
+}
+
+section {
+	column-count: 2;
+	column-gap: 2em;
+	
+}
+
+
 p {
 	font-size: 40px;
 }
@@ -111,4 +141,26 @@ td {
 .nav a:hover {
   background-color: yellow;
   color: red;
+}
+
+
+@media only screen and (min-width: 768px) {
+	
+	body {
+		text-align: left;
+		font-size: 18px;
+    }
+    
+    p {
+		line-height: 1.6em;
+	}
+	section {
+		column-count: 2;
+
+
+		
+	}
+		
+	
+	
 }
