@@ -1,52 +1,65 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
 <meta charset="UTF-8">
 <Title>Forms</title>
 <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
+<div class ="Form">
 <header>
-<h1> Forms</h1>
+ <span class="GreenSpan"> Forms </span>
+ </header>
+ </div>
+
+
+
 
 <img src="Logga.JPG" alt="Logga">
 </header>
 
+<nav>
 
-<h2> Fråga </h2>
-<form action="/action_page.php">
-<input type="checkbox" id="T1" name="T1" value="T1">
-  <label for="vehicle1"> 1 </label><br>
-  <input type="checkbox" id="T2" name="T2" value="T2">
-  <label for="vehicle2"> 2 </label><br>
-  <input type="checkbox" id="T3" name="T3" value="T3">
-  <label for="vehicle3"> 3 </label><br><br>
-  <input type="submit" value="Submit">
+<div class="nav">
+  <a href="Startsida.html">Startsida</a>
+  <a href="Regler.html">Regler</a>
+  <a href="Utrustning.html">Utrustning</a>
+  <a href="Teknik.html">Teknik</a>
+  <a href="Tennisbanor.html">Tennisbanor</a>
+</div>
+</nav>
+
+
 
 <h3> Fråga </h3>
 <form action="/action_page.php">
-<input type="checkbox" id="T4" name="T4" value="T4">
+<fieldset>
+<input type="" id="T4" name="T4" value="T4">
   <label for="vehicle1"> 4 </label><br>
+  
   <input type="checkbox" id="T2" name="T2" value="T2">
   <label for="vehicle2"> 5 </label><br>
+  
   <input type="checkbox" id="T3" name="T3" value="T3">
   <label for="vehicle3"> 6 </label><br><br>
-  <input type="submit" value="Submit">
   
-  <h4> Fråga </h4>
-<form action="/action_page.php">
-<input type="checkbox" id="T1" name="T1" value="T1">
-  <label for="vehicle1"> 7 </label><br>
-  <input type="checkbox" id="T2" name="T2" value="T2">
-  <label for="vehicle2"> 8 </label><br>
-  <input type="checkbox" id="T3" name="T3" value="T3">
-  <label for="vehicle3"> 9 </label><br><br>
-  <input type="submit" value="Submit">
+  </fieldset>
   
   <h3> Fråga </h3>
 <form action="/action_page.php">
-
+<fieldset>
+<input type="checkbox" id="T1" name="T1" value="T1">
+  <label for="vehicle1"> 7 </label><br>
+  
+  <input type="checkbox" id="T2" name="T2" value="T2">
+  <label for="vehicle2"> 8 </label><br>
+  
+  <input type="checkbox" id="T3" name="T3" value="T3">
+  <label for="vehicle3"> 9 </label><br><br>
+  
+  </fieldset>
+  
+  <h3> Fråga </h3>
+<form action="/action_page.php">
+<fieldset>
 <input type="Radio" id="T10" name="T10" value="T12">
   <label for="T10"> 4 </label><br>
   
@@ -55,18 +68,30 @@
   
   <input type="Radio" id="T12" name="T12" value="T12">
   <label for="T12"> 6 </label><br><br>
+  </form>
   
-  <input type="submit" value="Submit">
+<form action="/action_page.php">
+<fieldset>
+<legend>Personal Info: </Legend>
 
-
-<nav>
-
-<div class="Xnav">
-  <a href="Startsida.html">Startsida</a>
-  <a href="Formulär.html">Formulär</a>
+  <label for="fname"> First Name </label><br>
+  <input type="text " id="Fname" name="Fname"><br><br>
   
-</div>
-</nav>
+  <label for="Lname"> Last Name </label><br>
+  <input type="text" id="Lname" name="Lname"><br><br>
+  
+  <label for="Email"> Email </label>
+  <input type="Email" id="Email" name="Email"><br><br>
+  
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  
+ <br><br>
+ <input type="submit" value="Submit">
+ </fieldset>
+
+
+
 
 
 </body>
