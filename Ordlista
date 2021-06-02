@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<Title>Startsida</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="Ord">
+<header> Ordlista </header>
+<img src="Logga.JPG" alt="Logga">
+</div>
+<nav>
+
+
+<div class="nav">
+  <a href="Startsida.html">Startsida</a>
+
+</div>
+</nav>
+
+<div class="Ordlista">
+<p> Här finns en lista på några ord inom tennisen som används. Du kanske undrar över något ord som du inte förstår eller har glömt bort vad det betyder? Då kanske du hittar ordet/orden här. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Approach/attack </h2>
+<p> Ett grundslag som görs när du vill springa fram på volley. Exempel. Du slår en hård boll på motståndarens sida medan du springer fram på nät och slår en volley. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Baslinjespel </h2>
+<p> Spel som håller sig vid baslinjen och avstår från att gå fram på nät. </p>
+</div>
+
+<div class="Ordlista">
+<h2>  Baslinjen </h2>
+<p> linjen som är längst bort ifrån nätet och det är där du servar. </p>
+</div>
+
+<div class="Ordlista">
+<h2>  Break </h2>
+<p> När en spelare vinner motståndarens servgame. Kommentatorerna på tv brukar säg text ungefär, “Nu har söderling breakchans”, alltså att han har chans att vinna motståndarens servgame. </p>
+</div>
+
+<div class="Ordlista">
+<h2>  Cross </h2>
+<p> Ett slag som spelas diagonalt/snett över banan </p>
+</div>
+
+<div class="Ordlista">
+<h2>  Deuce </h2>
+<p> På tv så kan man höra domaren säga duce och det är ett engelskt uttryck för “40 lika”. </p>
+</div>
+
+<div class="Ordlista">
+<h2>  Dubbelfel </h2>
+<p> Man har missat sina två servar, ett dubbelfel och motståndaren vinner poängen. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Flack boll </h2>
+<p> En boll som slås utan topspinn (skruv) </p>
+</div>
+
+<div class="Ordlista">
+<h2 > Fördel </h2>
+<p> Poängen som spelas efter 40-40. Servaren eller mottagaren har fördel. </p>
+</div>
+
+<div class="Ordlista">
+<h2>  Fotfel </h2>
+<p> När spelaren snuddar linjen innan spelaren har träffat bollen. </p>
+</div>
+
+<div class="Ordlista">
+<h2>  Halvvolley </h2>
+<p> När racketen träffar bollen direkt efter studs. Oftast blir det de när man går fram på nät. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Hawkeye </h2>
+<p> När racketen träffar bollen direkt efter studs. Oftast blir det de när man går fram på nät. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Hoppsmash </h2>
+<p> Spelaren hoppar när smashen slås. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Inside-out </h2>
+<p> Ett slag som kommer på backhand fast man tar den med forehand. Oftast kommer bollen på backhandsidan och man slår hellre forhand och då går man runt bollen och slår en forehand. </p>
+</div>
+
+<div class="Ordlista">
+<h2>Korridoren </h2>
+<p> De två parallella linjer som går längst med banan. Den yttersta används vid dubbelspel, den inre är för singelspel. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Kick serv </h2>
+<p> En serv med mycket skruv som studsar iväg när den slår i underlaget. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Let </h2>
+<p> En boll som vid serv tar i nätet och går in i rätt servruta. Servern går då om. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Love </h2>
+<p> Ett engelskt uttryck för “noll”. Exempel “15 – love” alltså 15 – 0. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Lobb </h2>
+<p> Ett slag som går (lobbas) över motståndaren så att spelaren inte når den. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Nätspel </h2>
+<p> När du står vid nätet och försöker vinna bollen. </p>
+</div>
+
+<div class="Ordlista">
+<h2> No-ad </h2>
+<p> I ställningen 40-40 så har man ingen fördel utan den som vinner poängen vinner gemet. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Passerslag </h2>
+<p> Ett slag som passerar motståndare vid nätet som personen inte når. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Poäng </h2>
+<p> Spelarna börjar alltid varje game med att stå på högra sidan. Alltid när det står lika, tex 30-30 så står man på högra sidan, 15-15 och 40-40. Om det blir klurigt tänk så här. Det står 40-30, vart ska jag stå. Tänk att 40-40 står jag på höger sida. Så då ska jag alltså stå på höger sida. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Set </h2>
+<p> Det är 6 game i ett set och man spelar bäst av 3 set. Om båda spelare har vunnit ett set var så spelas avgörande set. Vid 5-5 i game så spelas det inte ett avgörande game utan den som vinner med 7-5 i game vinner matchen. Vid 6-6 så spelas det ett tiebreak. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Slice </h2>
+<p> Bollen skärs och får en underskruv och kan antingen användas som offensivt eller defensivt slag. Bollen får en låg studs och är oftast svår för motståndaren att slå tillbaks. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Sidbyte </h2>
+<p> Efter första gamet i matchen blir det sidbyte. Efter två till spelade game är det sidbyte, tex 2-1 i game. Vid 5-2 i game är det sidbyte. Vid 5-5 är det inte sidbyte. Enklast är att räkna ihop bådas game och när det är ojämt så är det sidbyte och när det jämt är det inte sidbyte. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Serv </h2>
+<p> Två chanser har man att serva. Man står bakom baslinjen och servar diagonalt, alltså snett över banan in i servrutan. Missar man dom båda servarna så vinner motståndaren poängen. </p>
+</div>
+
+<div class="Ordlista">
+<h2> Tiebreak </h2>
+<p> De används när ställningen är 6 lika i ett geme (6-6) och då spelar man ett tiebreak. Man servar 2 bollar var och den som börjar serva, spelar bara en boll. Sedan är det två bollar var. Den som först kommer till 7 vinner tiebreaket. Man måste vinna med två poäng. Ställningen kan bli 16-17 eller 20-21 och då forstätter man helatiden tills någon har vunnit med 2 poäng, t.ex. 10-8 </p>
+</div>
+
+<div class="Ordlista">
+<h2> Toppspin </h2>
+<p> Ett slag som man bara måste kunna. Toppspin är ett slag som de flesta använder och är ett framåtriktad skruv som borstas nerifrån och upp och får en båge över nätet och dyker snabbt ner. </p>
+</div>
+
+
+</body>
+</html>
