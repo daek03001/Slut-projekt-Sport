@@ -20,6 +20,9 @@
 </div>
 </nav>
 
+<span class="RedSpan">Kända</span>
+<span class="GreenSpan">Spelare </span>
+
 <div class="Ordlista">
 <p> Här finns en lista på några ord inom tennisen som används. Du kanske undrar över något ord som du inte förstår eller har glömt bort vad det betyder? Då kanske du hittar ordet/orden här. </p>
 </div>
@@ -171,4 +174,4 @@
 
 
 </body>
-</html>
+</html
