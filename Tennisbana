@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<Title>Tennisbana</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class ="Ord">
+<header> 
+ <span class="GreenSpan"> Tennisbanor </span>
+ <img src="Logga.JPG" alt="Logga">
+ </header>
+ </div>
+
+
+
+
+<nav>                               <!-- I nav finns alla mina länkar -->  
+
+<div class="nav">                                          
+<a href="Startsida.html">Startsida</a>
+<a href="TennisGuide.html">TennisGuide</a>
+  
+</div>   <!-- här avslutas Div class "nav" -->
+</nav>
+
+<main>
+<div class="Tennisbana">
+<img src ="BahramiTennisbana.jpg" alt="Tennis" width="800" height="700">
+<h1> Olika Tennisbanor</h1>
+</div>
+<main>
+
+<div class="Tennisbana">
+<p>
+- För att kunna spela tennis så måste man förstås förstå banan som man spelar på. Linjerna är en av sakerna som man behöver kunna för att förstå vilka bollar som är ute respektive inne. Linjerna är de samma i alla länder fast på deras språk.
+- I singel matcher (en mot en) så får man inte slå över baslinjen men den får studsa på linjen och den räknas som inne. Bollen får heller inte komma över sidlinjen vid singelspel.
+- I dubelmatcher (två mot två) så ökas sidorna med 1.37 meter var och då spelar man med linjerna som är längst ut på varje sida (sidlinje vid dubbelspel)
+</p>
+
+<div class="Tennisbana">
+<h1> Gräsbana <h1>
+<img src ="Gräsbana.jpg" alt="Tennis" width="800" height="700">
+<p>
+är ett snabbt underlaget och bollarna får låg studs. Serv och volley är en bra kombination på gräs.
+</p>
+</div>
+
+<div class="Tennisbana">
+<h1> Grusbana <h1>
+<img src ="Grusbana.jpg" alt="Tennis" width="800" height="700">
+<p>
+ger ett långsamt spel och kan vara tröttsamt då man får springa en hel del. På grus gäller det att toppa, få toppspin (skruv) på bollarna. På grus måste man räkna med att det blir felstuds lite då och då. Det är lite ojämt. Speciellt på linjerna brukar det bli felstuds så det gäller att ställa om snabbt.
+</p>
+</div>
+
+
+<div class="Tennisbana">
+<h1> Hardcourt <h1>
+<img src ="Hardcourt.jpeg" alt="Tennis" width="800" height="700">
+<p>
+är det snabbaste underlaget och duellerna kan vara över på några sekunder. Här gäller det att ha hålla fotarbeten igång hela tiden för att hålla med tempot.
+</p>
+</div>
+
+
+<footer> David Ekstedt EEDAT19 </footer>
+
+
+</main>
+</body>
+</html>
