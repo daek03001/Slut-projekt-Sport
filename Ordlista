@@ -7,21 +7,24 @@
 </head>
 <body>
 
+<video>
+	<source src="video.mp4" type="video/mp4" width="300" height="250">	
+</video>
+
 <div class="Ord">
 <header> Ordlista </header>
-<img src="Logga.JPG" alt="Logga">
 </div>
+
+ <div class="Container" </div>
+
+
 <nav>
-
-
-<div class="nav">
-  <a href="Startsida.html">Startsida</a>
-
-</div>
+<ul> 
+  <li><a href="Startsida.html">Startsida</a></li>
+  <li><a href="Tennisguide.html">TennisGuide</a></li>
+  <li><a href="KändaSpelare.html">KändaSpelare</a></li>
+</ul>
 </nav>
-
-<span class="RedSpan">Kända</span>
-<span class="GreenSpan">Spelare </span>
 
 <div class="Ordlista">
 <p> Här finns en lista på några ord inom tennisen som används. Du kanske undrar över något ord som du inte förstår eller har glömt bort vad det betyder? Då kanske du hittar ordet/orden här. </p>
@@ -174,4 +177,4 @@
 
 
 </body>
-</html
+</html>
