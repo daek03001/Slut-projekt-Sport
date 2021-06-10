@@ -8,23 +8,22 @@
 <body>
 
 
-<div class ="Ord">
-<header> 
- <span class="GreenSpan"> Tennisbanor </span>
- <img src="Logga.JPG" alt="Logga">
- </header>
- </div>
+
+ <div class="Container" </div>
+
+<div class="Ord">
+<header> Tennisbanor </header>
+<img src="Logga.JPG" alt="Logga">
+</div>
 
 
 
-
-<nav>                               <!-- I nav finns alla mina länkar -->  
-
-<div class="nav">                                          
-<a href="Startsida.html">Startsida</a>
-<a href="TennisGuide.html">TennisGuide</a>
-  
-</div>   <!-- här avslutas Div class "nav" -->
+<nav>
+<ul> 
+  <li><a href="Startsida.html">Startsida</a></li>
+  <li><a href="Tennisguide.html">TennisGuide</a></li>
+  <li><a href="KändaSpelare.html">KändaSpelare</a></li>
+</ul>
 </nav>
 
 <main>
