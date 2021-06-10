@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<Title>Startsida</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+ <div class="Container" </div>
+
+
+<div class="Ord">
+<header> Startsida </header>
+</div>
+
+
+
+<nav>
+<ul> 
+  <li><a href="Startsida.html">Startsida</a></li>
+  <li><a href="Tennisguide.html">TennisGuide</a></li>
+  <li><a href="KändaSpelare.html">KändaSpelare</a></li>
+  <li><a href="Forms.html">Formulär</a></li>
+  <li><a href="OrdLista.html">Ordlista</a></li>
+</ul>
+</nav>
+
+<div class="img">                         <!-- Div class img som lagrar bilder -->
+<img src ="BahramiStart.jpg" alt="Tennis" width="800" height="700">
+
+</div>
+
+
+
+
+<p> Tjena, Om du vill lära dig om Tennis, då har du kommit rätt, sidan består av 2 delar: Tennisguide och Historia. Tennisguide består av 4 delar: Regler, Utrustning, Teknik, Tennisbanor. I historian kommer jag ta med några legendariska ögonblick och även några tennis legender. </p> <!-- P bara en vanlig text fil -->
+
+<div class="Pimg">   <!-- ännu en div class som lagrar bilder -->
+<img src ="TennisHistoria.jpg" alt "Historia" width= "550" height= "450">
+<img src ="TennisSpelare.jpg" alt "TennisSpelare" width= "350" height= "300">
+</div>
+
+
+
+<footer> David Ekstedt EEDAT19 </footer>
+
+
+</body>
+</html>
