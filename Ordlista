@@ -8,14 +8,14 @@
 <body>
 
 <video>
-	<source src="video.mp4" type="video/mp4" width="300" height="250">	
+	<source src="video.mp4" type="video/mp4">	
 </video>
 
-<div class="Ord">
+<div> class="Ord">
 <header> Ordlista </header>
 </div>
 
- <div class="Container" </div>
+ <div> class="Container" </div>
 
 
 <nav>
