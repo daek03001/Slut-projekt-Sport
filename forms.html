@@ -7,12 +7,15 @@
 </head>
 <body>
 
- <div> class="Container" </div>
+<div class="Container">
+  <div></div>
+  <div></div>
+  <div></div>  
+</div>
 
-
-<header>
- <span> class="GreenSpan"> Forms </span>
- </header>
+<div class="Ord">
+<header> Forms </header>
+</div>
 
 
 <nav>
@@ -29,8 +32,24 @@
 
 <fieldset>
 
-<label for="Vinnare"> 1. Vem har mest vinster?  </label>
-<input type="checkbox" name="Vinnare" id="Vinnare" value="VinnareAU">
+<label for="Bah"> 1. Vilken man har mest grandslam vinster? </label>
+
+<label for="Bah"> Bahrami </label>
+<input type="radio" name="BahAU" id="Bah" value="Bah">
+<br>
+<label for="Dav"> David </label>
+<input type="radio" name="DavAU" id="Dav" value="Dav">
+<br>
+<label for="Djo"> Djokovic </label>
+<input type="radio" name="DjoAU" id="Djo" value="Djo">
+<br>
+<label for="Fed"> Federer </label>
+<input type="radio" name="FedAU" id="Fed" value="Fed">
+
+
+
+
+
 <br>
 
 </fieldset>
@@ -41,13 +60,13 @@
 
 
 <label for="Hand"> Handskar  </label>
-<input type="checkbox" name="Hand" id="Hand" value="HandU">
+<input type="checkbox" name="HandAU" id="Hand" value="Hand">
 <br>
 <label for="Rack"> Racket </label>
-<input type="checkbox" name="Rack" id="Rack" value="RackU">
+<input type="checkbox" name="RackAU" id="Rack" value="Rack">
 <br>
 <label for="Möss"> Mössa </label>
-<input type="checkbox" name="Möss" id="Möss" value="MössU">
+<input type="checkbox" name="MössAU" id="Möss" value="Möss">
 
 </fieldset>
   
@@ -56,26 +75,26 @@
 <label for="GGH"> 3. Vilka är de 3 Tennisbanor? </label><br>
 
 <label for="GGA"> Gräs, Grus, asfalt </label>
-<input type="checkbox" name="GGA" id="GGA" value="GGAU">
+<input type="radio" name="GGAAU" id="GGA" value="GGA">
 <br>
 <label for="GGH"> Gräs, Grus, Hardcourt </label>
-<input type="checkbox" name="GGH" id="GGH" value="GGHU">
+<input type="radio" name="GGHAU" id="GGH" value="GGH">
 <br>
 <label for="GHA"> Gräs, Hardcourt, asfalt </label>
-<input type="checkbox" name="GHA" id="GHA" value="GHAU">
+<input type="radio" name="GHAAU" id="GHA" value="GHA">
 </fieldset>
 
 <fieldset>
 <label for="Davve"> 4. Vilken av dessa 3 är bäst på Tennis?</label>
 
   <label for="Bahram">Bahrami </label>
-  <input type="Radio" id="Bahram" name="Bahram" value="BästAU">
+  <input type="Radio" name="BästAU" id="Bahram" value="Bahram">
   <br>
   <label for="Feder">Federrer </label>
-  <input type="Radio" id="Feder" name="Feder" value="FederAU">
+  <input type="Radio" name="FederAU" id="Feder" value="Feder">
   <br>
   <label for="Davve">David </label>
-  <input type="Radio" id="Davve" name="Davve" value="DavveAU">
+  <input type="Radio" name="DavveAU" id="Davve" value="Davve">
 
 </fieldset>
 
