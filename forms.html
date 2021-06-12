@@ -7,18 +7,13 @@
 </head>
 <body>
 
- <div class="Container" </div>
+ <div> class="Container" </div>
 
 
 <header>
- <span class="GreenSpan"> Forms </span>
+ <span> class="GreenSpan"> Forms </span>
  </header>
 
-
-
-
-<img src="Logga.JPG" alt="Logga">
-</header>
 
 <nav>
 <ul> 
@@ -28,89 +23,87 @@
 </ul>
 </nav>
 
+
 <form action = "Startsida.html" Method="post"> 
+
+
 <fieldset>
 
-<label for="THistor"> 1. Vem har mest vinster?  </label><br>
-<input type="name" id="THistor" name="THistor">
-  
-  </fieldset>
+<label for="Vinnare"> 1. Vem har mest vinster?  </label>
+<input type="checkbox" name="Vinnare" id="Vinnare" value="VinnareAU">
+<br>
+
+</fieldset>
   
 <fieldset>
-<label for="THistor1"> 2. Vilken Utrustning finns det? </label><br>
+<label for="Rack"> 2. Vilken Utrustning finns det? </label>
 
-<label for="T2"> Handskar  </label>
-<input type="checkbox" id="T2" name="T1" value="T2">
-<br>
-<label for="T3"> Racket </label>
-<input type="checkbox" id="T3" name="T1" value="T3">
-<br>
-<label for="T4"> Mössa </label>
-<input type="checkbox" id="T4" name="T1" value="T4">
 
-  
-  </fieldset>
+
+<label for="Hand"> Handskar  </label>
+<input type="checkbox" name="Hand" id="Hand" value="HandU">
+<br>
+<label for="Rack"> Racket </label>
+<input type="checkbox" name="Rack" id="Rack" value="RackU">
+<br>
+<label for="Möss"> Mössa </label>
+<input type="checkbox" name="Möss" id="Möss" value="MössU">
+
+</fieldset>
   
   
 <fieldset>
-<label for="THistor3"> 3. Vilka är de 3 Tennisbanor? </label><br>
+<label for="GGH"> 3. Vilka är de 3 Tennisbanor? </label><br>
 
-<label for="T2"> Gräs, Grus, asfalt </label>
-<input type="checkbox" id="T2" name="T1" value="T2">
+<label for="GGA"> Gräs, Grus, asfalt </label>
+<input type="checkbox" name="GGA" id="GGA" value="GGAU">
 <br>
-<label for="T3"> Gräs, Grus, Hardcourt </label>
-<input type="checkbox" id="T3" name="T1" value="T3">
+<label for="GGH"> Gräs, Grus, Hardcourt </label>
+<input type="checkbox" name="GGH" id="GGH" value="GGHU">
 <br>
-<label for="T4"> Gräs, Hardcourt, asfalt </label>
-<input type="checkbox" id="T4" name="T1" value="T4">
+<label for="GHA"> Gräs, Hardcourt, asfalt </label>
+<input type="checkbox" name="GHA" id="GHA" value="GHAU">
+</fieldset>
+
+<fieldset>
+<label for="Davve"> 4. Vilken av dessa 3 är bäst på Tennis?</label>
+
+  <label for="Bahram">Bahrami </label>
+  <input type="Radio" id="Bahram" name="Bahram" value="BästAU">
+  <br>
+  <label for="Feder">Federrer </label>
+  <input type="Radio" id="Feder" name="Feder" value="FederAU">
+  <br>
+  <label for="Davve">David </label>
+  <input type="Radio" id="Davve" name="Davve" value="DavveAU">
 
 </fieldset>
 
 <fieldset>
-<label for="THistor4"> 4. Vilken av dessa 3 är bäst på Tennis?</label>
-<input type="Radio" id="T10" name="T10" value="T11">
-  <label for="T10">Bahrami </label>
-  <br>
-  <input type="Radio" id="T11" name="T10" value="T12">
-  <label for="T11">Federrer </label>
-  <br>
-  <input type="Radio" id="T12" name="T10" value="T13">
-  <label for="T12">David </label><br><br>
-</fieldset>
-
-<fieldset>
-<label for ="THistor5"> 5. Hur vinner man i tennis? </label>
-<textarea id ="T14" name = "T11"> </textarea>
-
-
+<label for ="TennisVinst"> 5. Hur vinner man i tennis? </label>
+<textarea id ="TennisVinst" name = "TennisVinst"> </textarea>
 </fieldset>
  
 
 <fieldset>
 <legend>Personal Info: </Legend>
 
-  <label for="fname"> First Name </label><br>
-  <input type="text " id="Fname" name="Fname"><br><br>
-  
-  <label for="Lname"> Last Name </label><br>
-  <input type="text" id="Lname" name="Lname"><br><br>
-  
+  <label for="Fname"> First Name </label>
+  <input type="text" id="Fname" name="Fname">
+  <br>
+  <label for="Lname"> Last Name </label>
+  <input type="text" id="Lname" name="Lname">
+  <br>
   <label for="Password"> Password </label>
-  <input type="password" id="Password" name="Password"><br><br>
-  
+  <input type="password" id="Password" name="Password">
+  <br>
   <label for="birthday">Birthday:</label>
   <input type="date" id="birthday" name="birthday">
-  
-  
-  
- <br><br>
+ 
  <input type="submit" value="Submit">
  </fieldset>
  
  </form>
-
-
-
 
 
 </body>
